@@ -1,4 +1,4 @@
-import * as Sankey from "sankey-multilevel";
+import * as Sankey from "sankey-with-source";
 import * as _ from "lodash";
 
 export class Demo {

@@ -1,6 +1,6 @@
 {
-  "name": "sankey-multilevel",
-  "version": "0.0.1-beta.01",
+  "name": "sankey-with-source",
+  "version": "0.0.2",
   "description": "The diagram of sankey-multilevel",
   "module": "dist/sankey-multilevel.js",
   "files": [
@@ -16,8 +16,8 @@
     "test:watch": "jest src --watch --notify",
     "cover": "jest src --coverage",
     "lint": "eslint src",
-    "build": "tsc && npm run clean && rollup -c",
-    "prepublishOnly": "clean && lint && test && build",
+    "build": "tsc && rollup -c",
+    "prepublishOnly": "npm run build",
     "ci-publish": "ci-publish"
   },
   "homepage": "http://git.sy/pecker/sankey-multilevel",
