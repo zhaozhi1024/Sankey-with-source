@@ -1,0 +1,36 @@
+.link-path {
+    height: 32px;
+    position: relative;
+}
+
+.sankey-diagram {
+    height: calc(100% - 32px);
+    position: relative;
+}
+
+.sankey-diagram-without-shiftfunc {
+    height: 100%;
+    position: relative;
+}
+
+.sankey-node-tooltip {
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition-duration: 120;
+    white-space: nowrap;
+    padding: 5px 10px;
+    margin: 0;
+    list-style: none;
+    display: none;
+    font-size: 12px;
+    color: white;
+}
+
+.ctrl-selected{
+  stroke: black;
+  stroke-dasharray: 5, 5;
+}

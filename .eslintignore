@@ -1,0 +1,14 @@
+
+# Omit files in config folder
+config/**/*.js
+lib/**/*.js
+
+
+# generate files in dist folder
+dist
+
+# host-env
+host-env.js
+
+# cibuild
+cibuild.js

@@ -1,0 +1,18 @@
+{
+  "dockerFile": {
+    "type": "",
+    "sync": false
+  },
+  "gitlabCi": {
+    "type": "js-lib",
+    "sync": true
+  },
+  "charts": {
+    "type": "",
+    "sync": false
+  },
+  "projectTemplate": {
+    "type": "",
+    "sync": false
+  }
+}

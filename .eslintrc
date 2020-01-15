@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:jest/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["jest", "flowtype"],
+  "rules": {
+    "no-underscore-dangle": ["error", { "allow": ["__get__"] }],
+    "no-console": "off"
+  }
+}
