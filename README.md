@@ -1,3 +1,10 @@
+<!--
+ * @Author: 赵志
+ * @Date: 2022-11-30 13:48:13
+ * @LastEditTime: 2023-04-14 17:54:29
+ * @LastEditors: 赵志
+ * @Description: 
+-->
 # Sankey-with-source
-this is a sankey with source links, it is different from other sankey charts on the Internet.
-It is maybe beneficial to you, so you can scan the dome as follow.
+
+demo展示：https://zhaozhi1024.github.io/sankey-demo/
